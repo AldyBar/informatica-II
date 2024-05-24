@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <stdint.h>
-
-///holaaaa
-
 int main() {
     FILE *f = fopen ("swt_data.dat", "rb"); //rb abre el archivo
     uint32_t header;
